@@ -1,9 +1,9 @@
 export default function About({ site }) {
   return (
     <section className="section" id="sobre">
-      <div className="container split">
+      <div className="container split about-section">
 
-        <div>
+        <div className="about-content">
 
           <span className="eyebrow">
             {site.about.eyebrow}
@@ -20,9 +20,14 @@ export default function About({ site }) {
           <div className="about-list">
 
             {site.about.features.map((feature) => (
-              <div key={feature}>
+
+              <div
+                className="about-feature"
+                key={feature}
+              >
                 ✓ {feature}
               </div>
+
             ))}
 
           </div>
@@ -32,8 +37,8 @@ export default function About({ site }) {
         <div className="about-image">
 
           <img
-            src={site.about.image}
-            alt={site.about.title}
+            src="/images/about-team.jpg"
+            alt="Equipe Rynova"
             loading="lazy"
           />
 

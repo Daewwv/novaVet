@@ -1,52 +1,40 @@
 const portfolio = [
   {
-    title: "Consultório veterinário",
-    category: "Estrutura",
+    title: "NovaVet",
+    category: "Site Institucional",
     description:
-      "Ambiente preparado para consultas, avaliações e atendimento clínico.",
-    image:
-      "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=1200&q=85"
+      "Solução digital para clínica veterinária, com apresentação de serviços, agendamento online e experiência responsiva.",
+    image: "/images/portfolio-novavet.jpg",
+    href: "/portfolio/novavet/",
+    technologies: ["React", "Vite", "Responsivo"],
   },
   {
-    title: "Centro cirúrgico",
-    category: "Cirurgias",
+    title: "PrimeGrill",
+    category: "Site para Restaurante",
     description:
-      "Estrutura equipada para procedimentos com segurança e acompanhamento.",
-    image:
-  "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1200&q=85"
+      "Experiência digital premium para restaurante, com cardápio, reservas e apresentação estratégica da marca.",
+    image: "/images/portfolio-primegrill.jpg",
+    href: "/portfolio/primegrill/",
+    technologies: ["React", "Cardápio Digital", "Reservas"],
   },
   {
-    title: "Exames e diagnóstico",
-    category: "Tecnologia",
+    title: "LexPrime",
+    category: "Site Institucional",
     description:
-      "Exames laboratoriais e suporte diagnóstico para decisões mais rápidas.",
-    image:
-  "https://images.unsplash.com/photo-1583912267550-d974311a9a6e?auto=format&fit=crop&w=1200&q=85"
+      "Site profissional para escritório de advocacia, desenvolvido para transmitir confiança, autoridade e credibilidade.",
+    image: "/images/portfolio-lexprime.jpg",
+    href: "/portfolio/lexprime/",
+    technologies: ["React", "SEO", "Responsivo"],
   },
   {
-    title: "Atendimento humanizado",
-    category: "Cuidado",
+    title: "ProgressLife",
+    category: "SaaS / Aplicativo",
     description:
-      "Equipe preparada para cuidar do pet e orientar cada tutor com clareza.",
-    image:
-  "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=1200&q=85"
+      "Aplicação de produtividade que transforma metas em missões diárias, com temporizador, XP e progresso semanal.",
+    image: "/images/portfolio-progresslife.jpg",
+    href: "/portfolio/progresslife/",
+    technologies: ["App", "Firebase", "Produtividade"],
   },
-  {
-    title: "Vacinação",
-    category: "Prevenção",
-    description:
-      "Protocolos de vacinação personalizados para cães e gatos.",
-    image:
-      "https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?auto=format&fit=crop&w=1200&q=85"
-  },
-  {
-    title: "Banho e tosa",
-    category: "Bem-estar",
-    description:
-      "Cuidados de higiene, estética e conforto para o dia a dia do seu pet.",
-    image:
-      "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=1200&q=85"
-  }
 ];
 
 export default portfolio;

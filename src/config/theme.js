@@ -1,39 +1,43 @@
 const theme = {
   colors: {
-    primary: "#1E88E5",
-    primaryDark: "#1565C0",
-    secondary: "#E8F5E9",
-    accent: "#43A047",
+    primary: "#0878F9",
+    primaryDark: "#0556C9",
+    secondary: "#EAF4FF",
+    accent: "#22A8F5",
+
     background: "#FFFFFF",
-    surface: "#F5F9FC",
-    surfaceStrong: "#EEF4FA",
-    text: "#1F2937",
-    heading: "#0B1735",
-    muted: "#667085",
-    border: "#DCE7F2",
-    dark: "#071126",
-    darkSoft: "#AEB9CE",
+    surface: "#F7F9FC",
+    surfaceStrong: "#EAF1FA",
+
+    text: "#26354D",
+    heading: "#06152F",
+    muted: "#66758C",
+    border: "#DCE6F2",
+
+    dark: "#031126",
+    darkSoft: "#AAB8CC",
+
     white: "#FFFFFF",
-    whatsapp: "#25D366"
+    whatsapp: "#25D366",
   },
 
   fonts: {
     body: "Inter, system-ui, Arial, sans-serif",
-    heading: "Inter, system-ui, Arial, sans-serif"
+    heading: "Inter, system-ui, Arial, sans-serif",
   },
 
   radius: {
-    small: "12px",
-    medium: "20px",
+    small: "14px",
+    medium: "22px",
     large: "32px",
-    pill: "999px"
+    pill: "999px",
   },
 
   shadow: {
-    soft: "0 15px 40px rgba(30, 136, 229, 0.10)",
-    medium: "0 25px 60px rgba(11, 23, 53, 0.12)",
-    strong: "0 30px 70px rgba(11, 23, 53, 0.18)"
-  }
+    soft: "0 12px 35px rgba(6, 21, 47, 0.08)",
+    medium: "0 24px 65px rgba(6, 21, 47, 0.13)",
+    strong: "0 35px 90px rgba(6, 21, 47, 0.20)",
+  },
 };
 
 export default theme;

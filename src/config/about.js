@@ -1,21 +1,20 @@
 const about = {
-  eyebrow: "Por que escolher a NovaVet",
+  eyebrow: "QUEM SOMOS",
 
-  title: "Atendimento veterinário completo e humanizado.",
+  title: "Transformamos ideias em experiências digitais que geram resultados.",
 
   text:
-    "Nossa equipe cuida de cada animal com atenção individual, estrutura moderna e orientação clara para os tutores.",
+    "Na Rynova acreditamos que um site não deve apenas ser bonito. Ele deve transmitir confiança, fortalecer sua marca e ajudar sua empresa a conquistar novos clientes. Desenvolvemos soluções digitais modernas, rápidas e totalmente responsivas, combinando design, estratégia e tecnologia.",
 
-  image:
-    "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=1200&q=85",
+  image: "/images/about-team.jpg",
 
   features: [
-    "Equipe especializada",
-    "Atendimento humanizado",
-    "Estrutura moderna",
-    "Diagnóstico completo",
-    "Emergência 24 horas",
-    "Orientação aos tutores"
+    "Design moderno e exclusivo",
+    "Alta performance",
+    "SEO otimizado",
+    "100% responsivo",
+    "Integração com WhatsApp",
+    "Suporte contínuo"
   ]
 };
 

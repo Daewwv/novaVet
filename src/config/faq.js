@@ -1,33 +1,33 @@
 const faq = [
   {
-    question: "Como agendar uma consulta?",
+    question: "Quanto custa um site?",
     answer:
-      "Você pode agendar pelo WhatsApp, telefone ou formulário do site."
+      "O investimento depende do tipo de projeto, funcionalidades e quantidade de páginas. Após entendermos sua necessidade, enviamos um orçamento personalizado."
   },
   {
-    question: "A clínica atende emergências?",
+    question: "Em quanto tempo o site fica pronto?",
     answer:
-      "Sim. Atendemos situações de urgência conforme disponibilidade da equipe."
+      "O prazo varia conforme o projeto, mas a maioria dos sites institucionais é entregue em poucas semanas após a aprovação do conteúdo."
   },
   {
-    question: "Quais vacinas vocês aplicam?",
+    question: "O site funciona em celulares?",
     answer:
-      "Trabalhamos com protocolos atualizados para cães e gatos, conforme idade e histórico do animal."
+      "Sim. Todos os projetos desenvolvidos pela Rynova são totalmente responsivos e adaptados para computadores, tablets e smartphones."
   },
   {
-    question: "Vocês realizam exames?",
+    question: "Vocês registram domínio e hospedagem?",
     answer:
-      "Sim. Oferecemos exames laboratoriais e encaminhamento para exames de imagem."
+      "Sim. Podemos orientar ou realizar toda a configuração do domínio, hospedagem e publicação do site."
   },
   {
-    question: "Fazem castração?",
+    question: "Posso solicitar alterações depois da entrega?",
     answer:
-      "Sim. A castração é realizada após avaliação clínica e exames pré-operatórios."
+      "Sim. Também oferecemos suporte e manutenção para manter seu site atualizado e funcionando corretamente."
   },
   {
-    question: "Atendem cães e gatos?",
+    question: "Atendem empresas de qualquer segmento?",
     answer:
-      "Sim. A NovaVet atende cães e gatos de diferentes idades e portes."
+      "Sim. Desenvolvemos projetos para clínicas, escritórios, restaurantes, academias, empresas de serviços e diversos outros segmentos."
   }
 ];
 

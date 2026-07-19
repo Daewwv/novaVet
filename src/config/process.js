@@ -1,28 +1,31 @@
 const process = [
   {
     number: "01",
-    title: "Agendamento",
+    title: "Descoberta",
     description:
-      "Escolha o melhor horário pelo WhatsApp ou telefone.",
+      "Entendemos seu negócio, seus objetivos e seu público para construir uma estratégia digital personalizada."
   },
+
   {
     number: "02",
-    title: "Consulta",
+    title: "Design",
     description:
-      "Realizamos uma avaliação completa do seu pet.",
+      "Criamos uma interface moderna, intuitiva e alinhada à identidade visual da sua empresa."
   },
+
   {
     number: "03",
-    title: "Tratamento",
+    title: "Desenvolvimento",
     description:
-      "Definimos o melhor tratamento e acompanhamos a evolução.",
+      "Transformamos o design em um site rápido, responsivo e otimizado para oferecer a melhor experiência."
   },
+
   {
     number: "04",
-    title: "Acompanhamento",
+    title: "Lançamento",
     description:
-      "Continuamos cuidando da saúde do animal após o atendimento.",
-  },
+      "Publicamos o projeto, realizamos os testes finais e acompanhamos você após a entrega."
+  }
 ];
 
 export default process;

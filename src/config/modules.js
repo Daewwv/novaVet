@@ -5,7 +5,7 @@ const modules = {
   team: true,
   portfolio: true,
   process: true,
-  testimonials: true,
+  testimonials: false,
   faq: true,
   cta: true,
   contact: true

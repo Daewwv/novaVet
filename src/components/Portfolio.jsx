@@ -2,41 +2,90 @@ export default function Portfolio({ site }) {
   return (
     <section className="section" id="portfolio">
       <div className="container">
+
         <div className="section-heading">
-          <span className="eyebrow">Nossa estrutura</span>
+          <span className="eyebrow">
+            PORTFÓLIO
+          </span>
 
           <h2>
-            Conheça os ambientes preparados para cuidar do seu pet.
+            Projetos desenvolvidos pela Rynova.
           </h2>
 
           <p>
-            Estrutura moderna, atendimento humanizado e espaços pensados para
-            cães e gatos.
+            Cada projeto é desenvolvido para gerar resultados reais,
+            transmitir confiança e fortalecer a presença digital do cliente.
           </p>
         </div>
 
         <div className="portfolio-grid">
+
           {site.portfolio.map((project) => (
-            <article className="portfolio-card" key={project.title}>
-              <img
-                src={project.image}
-                alt={project.title}
-              />
+
+            <article
+              className="portfolio-card"
+              key={project.title}
+            >
+
+              <div className="portfolio-image">
+
+                <img
+                  src={project.image}
+                  alt={project.title}
+                />
+
+              </div>
 
               <div className="portfolio-content">
-                <span>{project.category}</span>
 
-                <h3>{project.title}</h3>
+                <span className="portfolio-category">
+                  {project.category}
+                </span>
 
-                <p>{project.description}</p>
+                <h3>
+                  {project.title}
+                </h3>
 
-                <a href="#contato">
-                  Saiba mais →
+                <p>
+                  {project.description}
+                </p>
+
+                {project.technologies && (
+
+                  <div className="portfolio-tags">
+
+                    {project.technologies.map((tech) => (
+
+                      <span
+                        key={tech}
+                        className="portfolio-tag"
+                      >
+                        {tech}
+                      </span>
+
+                    ))}
+
+                  </div>
+
+                )}
+
+                <a
+                  href={project.href}
+                  className="portfolio-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver projeto →
                 </a>
+
               </div>
+
             </article>
+
           ))}
+
         </div>
+
       </div>
     </section>
   );

@@ -1,12 +1,13 @@
 const cta = {
-  eyebrow: "Agende hoje",
+  eyebrow: "Vamos conversar",
 
-  title: "Cuide da saúde do seu pet com quem entende.",
+  title:
+    "Pronto para levar sua empresa para o próximo nível?",
 
   text:
-    "Fale com a NovaVet pelo WhatsApp e agende uma consulta de forma rápida.",
+    "Entre em contato com a Rynova e descubra como um site profissional pode fortalecer sua marca e gerar novas oportunidades de negócio.",
 
-  buttonLabel: "Agendar consulta →",
+  buttonLabel: "Falar com um especialista →",
 };
 
 export default cta;

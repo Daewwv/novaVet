@@ -1,11 +1,10 @@
 const branding = {
-  logo: "",
+  logo: "/logo/logo-horizontal.png",
+  favicon: "/logo/favicon.png",
 
-  favicon: "",
+  logoType: "image",
 
-  logoType: "letter",
-
-  logoLetter: "N",
+  logoLetter: "R",
 };
 
 export default branding;

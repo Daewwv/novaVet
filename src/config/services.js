@@ -1,62 +1,73 @@
 const services = [
   {
-    icon: "🩺",
-    title: "Consultas Veterinárias",
-    text: "Atendimento clínico completo para cães e gatos.",
+    icon: "🌐",
+    title: "Sites Institucionais",
+    text:
+      "Criamos sites modernos que transmitem confiança, fortalecem sua marca e apresentam sua empresa de forma profissional.",
     features: [
-      "Avaliação completa",
-      "Diagnóstico",
-      "Orientação médica"
+      "Design exclusivo",
+      "Alta performance",
+      "SEO otimizado"
     ]
   },
+
   {
-    icon: "💉",
-    title: "Vacinação",
-    text: "Protocolos de vacinação atualizados para todas as idades.",
+    icon: "🚀",
+    title: "Landing Pages",
+    text:
+      "Páginas desenvolvidas para aumentar conversões, captar clientes e impulsionar campanhas de marketing.",
     features: [
-      "Vacinas importadas",
-      "Carteira de vacinação",
-      "Prevenção"
+      "Foco em conversão",
+      "Call To Action",
+      "Integração WhatsApp"
     ]
   },
+
   {
-    icon: "🔬",
-    title: "Exames",
-    text: "Exames laboratoriais e de imagem com rapidez.",
+    icon: "🛒",
+    title: "Lojas Virtuais",
+    text:
+      "E-commerces rápidos, seguros e preparados para vender produtos e serviços online.",
     features: [
-      "Hemograma",
-      "Ultrassom",
-      "Raio-X"
+      "Catálogo profissional",
+      "Checkout moderno",
+      "Responsivo"
     ]
   },
+
   {
-    icon: "🏥",
-    title: "Cirurgias",
-    text: "Centro cirúrgico equipado e equipe especializada.",
+    icon: "🎨",
+    title: "Redesign",
+    text:
+      "Transformamos sites antigos em experiências modernas, rápidas e preparadas para gerar resultados.",
     features: [
-      "Castração",
-      "Cirurgias gerais",
-      "Recuperação"
+      "Novo visual",
+      "UX aprimorada",
+      "Performance"
     ]
   },
+
   {
-    icon: "🚑",
-    title: "Emergência",
-    text: "Atendimento rápido para situações de urgência.",
+    icon: "📈",
+    title: "SEO",
+    text:
+      "Estruturamos seu site para melhorar sua presença no Google desde o primeiro dia.",
     features: [
-      "Suporte imediato",
-      "Equipe preparada",
-      "Prioridade"
+      "SEO Técnico",
+      "Performance",
+      "Indexação"
     ]
   },
+
   {
-    icon: "✂️",
-    title: "Banho e Tosa",
-    text: "Higiene e estética para o bem-estar do seu pet.",
+    icon: "🤝",
+    title: "Suporte Contínuo",
+    text:
+      "Continuamos ao seu lado após a publicação, mantendo seu projeto sempre atualizado.",
     features: [
-      "Banho",
-      "Tosa",
-      "Hidratação"
+      "Atualizações",
+      "Correções",
+      "Suporte dedicado"
     ]
   }
 ];

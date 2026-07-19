@@ -1,95 +1,103 @@
 const content = {
   company: {
-    name: "NovaVet",
+    name: "Rynova",
 
-    tagline: "Cuidado veterinário com carinho e confiança",
+    tagline: "Soluções digitais que geram resultados",
 
     description:
-      "Clínica veterinária moderna com atendimento humanizado para cães e gatos.",
+      "Criamos sites e soluções digitais modernas, rápidas e estratégicas para fortalecer marcas e gerar novas oportunidades de negócio.",
 
     phone: "5541996123134",
 
     whatsapp: "5541996123134",
 
-    email: "contato@novavet.com.br",
+    email: "contato@rynova.com.br",
 
     city: "Curitiba - PR",
 
-    address:
-      "Rua Exemplo, 123 - Centro - Curitiba - PR",
+    address: "Atendimento online em todo o Brasil",
 
     schedule: {
       week: "Segunda a Sexta • 08:00 às 18:00",
-      saturday: "Sábado • 08:00 às 13:00",
-      sunday: "Emergência 24h"
+      saturday: "Sábado • Atendimento com horário marcado",
+      sunday: "Domingo • Fechado",
     },
 
     social: {
-      instagram: "https://instagram.com/novavet",
-      facebook: "https://facebook.com/novavet"
+      instagram: "https://instagram.com/rynova",
+      facebook: "",
     },
+
     navigation: [
-  {
-    label: "Início",
-    href: "#inicio"
-  },
-  {
-    label: "Serviços",
-    href: "#servicos"
-  },
-  {
-    label: "Sobre",
-    href: "#sobre"
-  },
-  {
-    label: "Equipe",
-    href: "#equipe"
-  },
-  {
-    label: "FAQ",
-    href: "#faq"
-  }
-]
-    
+      {
+        label: "Início",
+        href: "#inicio",
+      },
+      {
+        label: "Serviços",
+        href: "#servicos",
+      },
+      {
+        label: "Portfólio",
+        href: "#portfolio",
+      },
+      {
+        label: "Processo",
+        href: "#processo",
+      },
+      {
+        label: "Contato",
+        href: "#contato",
+      },
+    ],
   },
 
   hero: {
-    eyebrow: "Clínica Veterinária",
+    eyebrow: "DESENVOLVIMENTO DIGITAL",
 
-    title:
-      "Cuidamos da saúde de quem faz parte da sua família.",
+    title: "Construímos a presença digital que a sua empresa merece.",
 
     text:
-      "Consultas, vacinas, exames, cirurgias e atendimento veterinário com carinho, segurança e tecnologia.",
+      "Criamos sites profissionais, rápidos e modernos para empresas que desejam transmitir confiança, fortalecer a marca e conquistar mais clientes.",
 
-    primaryCta: "Agendar consulta",
+    primaryCta: "Vamos conversar",
 
-    secondaryCta: "Conhecer serviços",
-
-    image:
-      "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=1400&q=85",
+    secondaryCta: "Ver projetos",
 
     badge: {
-      title: "Atendimento 24h",
-      subtitle: "Emergências veterinárias"
-    }
+      title: "Soluções sob medida",
+      subtitle: "Performance • SEO • Responsividade",
+    },
+
+    trust: [
+      {
+        icon: "⚡",
+        title: "Alta Performance",
+      },
+      {
+        icon: "⌕",
+        title: "SEO Integrado",
+      },
+      {
+        icon: "▣",
+        title: "100% Responsivo",
+      },
+    ],
   },
 
   contact: {
-    eyebrow: "Contato",
+    eyebrow: "Entre em contato",
 
-
-    title:
-      "Seu pet merece o melhor cuidado.",
+    title: "Vamos transformar sua ideia em um projeto digital.",
 
     text:
-      "Fale conosco e agende uma consulta para seu cão ou gato.",
-      buttonLabel: "Falar no WhatsApp",
+      "Fale conosco pelo WhatsApp. Vamos entender seu negócio e apresentar a solução mais adequada para sua empresa.",
+
+    buttonLabel: "Solicitar orçamento",
 
     whatsappMessage:
-      "Olá! Gostaria de agendar uma consulta veterinária na NovaVet."
-      
-  }
+      "Olá! Visitei o site da Rynova e gostaria de conversar sobre um projeto.",
+  },
 };
 
 export default content;
